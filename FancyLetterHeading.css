@@ -2,9 +2,10 @@ background color: white
 
 .top {
   background-position: top;
-  box-shadow: 20px 20px 50px;
+  box-shadow: 20px 20px 50px,
+  linear-gradiant(gray, white);
   border-top: red;
-  background-blend-mode: hard-light;
+
 }
 
 .logo {
@@ -14,9 +15,8 @@ background color: white
 
 .bottom {
   background-position: bottom;
-  box-shadow: 20px 20px 50px;
-  border-bottom: red;
-  background-blend-mode: hard-light;
+  box-shadow: 20px 20px 50px,
+  linear-gradiant (gray, white);
 }
 
 h1{
